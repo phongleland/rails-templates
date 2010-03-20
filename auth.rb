@@ -1,4 +1,4 @@
-load_template "/Users/phongleland/Projects/rails_templates/base.rb"
+load_template "http://github.com/phongleland/rails-templates/blob/master/base.rb"
 
 name = ask("What do you want a user to be called?")
 generate :nifty_authentication, name
