@@ -42,7 +42,7 @@ run "echo  '  database: "+app_name+"_production' >> config/database.yml"
 run "echo  '  pool: 5' >> config/database.yml"
 run "echo  '  username: "+database_user+"' >> config/database.yml"
 run "echo  '  password: "+database_password+"' >> config/database.yml"
-run "echo  '  hostname: db_primary' >> config/database.yml"
+run "echo  '  host: db_primary' >> config/database.yml"
 
 
 generate :nifty_layout
